@@ -17,9 +17,7 @@ const App: FC = () => {
       }
      else  setDeadline(Number(event.target.value));
     } 
-    // else {
-    //   alert('Please fill in all fields');
-    // }
+   
 
   const addTask = (): void => {
     const newTask = {
